@@ -1,0 +1,44 @@
+header {
+    background-color: aquamarine; 
+    height: 100px;
+    
+}
+
+.nav-list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+main {
+    background-color: cadetblue;
+    height: 1000px;
+}
+#link-1 {
+    font-size: 20px;
+    border: 3px solid black;
+}
+#link-2 {
+    color: white;
+    border: 3px solid yellow;
+    border-right: 5px solid red;
+}
+
+footer {
+    background-color: cornflowerblue;
+    height: 300px;
+}
+
+#logo {
+    background-color: orangered;
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    padding: 30px;
+    border: 5px solid white; 
+}

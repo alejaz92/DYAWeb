@@ -1,0 +1,12 @@
+input {
+    margin-bottom: 30px;
+}
+input[type="password"] {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+select {
+    margin-bottom:  30px;
+}
+
