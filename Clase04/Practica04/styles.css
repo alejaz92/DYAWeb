@@ -1,0 +1,38 @@
+header {
+    background-color: black;
+    height: 60px;
+}
+#logo {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 120px;
+}
+#headerdate {
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+h5 {
+    color: blueviolet;
+}
+
+h1 {
+    font-size: 25PX;
+}
+
+img {
+    width:  100%;
+}
+
+
+footer {
+    background-color: black;
+    color:  white;
+    height: 200px;
+    text-align: center;
+}
+
+#footertext {
+    padding-top:  20px;
+    font-size:  10px;
+}
