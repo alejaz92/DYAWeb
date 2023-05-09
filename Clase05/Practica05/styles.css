@@ -1,0 +1,63 @@
+.contenedor {
+    width: 80%;  
+    margin: 0 auto; 
+    overflow: hidden;
+    max-width: 1000px;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    
+}
+
+main {
+  box-sizing: border-box;
+}
+#logo {
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 120px;
+}
+#headerdate {
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+h5 {
+    color: blueviolet;
+}
+
+h1 {
+    font-size: 25PX;
+}
+
+img {
+    width:  100%;
+}
+
+
+footer {
+    background-color: black;
+    color:  white;
+    height: 200px;
+    text-align: center;
+}
+
+#footertext {
+    padding-top:  20px;
+    font-size:  10px;
+}
+
+@media screen and (max-width: 720px) {
+    .contenedor {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        width: 100%;
+    }
+}
