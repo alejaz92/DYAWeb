@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
+        <script src="function.js"></script>
 
         <header>
             <img src="https://www.unex.es/conoce-la-uex/centros/cum/archivos/imagenes/iconos/novedad.png/image_preview" alt="Logo" height="150">    
@@ -27,12 +28,80 @@
         <main>
 
             <section class="noticia-principal">
-                <article>
-                    <a href="#"><h2>Con la vuelta de Lionel Messi, PSG busca vencer a Ajaccio para arrimarse al titulo</h2></a>
-                    <img src="https://www.infobae.com/new-resizer/53xKnefocgEA7b_Zh4u_WowCyAs=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/A6VCK2QFPVCG5NUDEHESVRMWVE.jpg" alt="">
-                    <p>El astro rosarino vuelve a las canchas despues de su suspension. Se preve que si el equipo gana, pueda salir campeon esta fecha.</p>
-                </article>
+
                 
+
+                <div id="form-susc">
+
+                    <h1>Suscribase al newsletter</h1>
+                    <br>
+                    <form >
+                        <div class="contenedor-campos">
+                            <div class="label">Nombre</div>
+                            <input type="text" id="nombre" onblur="validarNombre()" onfocus="limpiarcampos('nombre')">
+                            <div id="nombre-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Email</div>
+                            <input type="text" id="email" onblur="validarEmail()" onfocus="limpiarcampos('email')">
+                            <div id="email-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Contraseña</div>
+                            <input type="password" id="password" onblur="validarPass()" onfocus="limpiarcampos('password')">
+                            <div id="password-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Repetir Contraseña</div>
+                            <input type="password" id="password2" onblur="validarPass2()" onfocus="limpiarcampos('password2')">
+                            <div id="password2-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Edad</div>
+                            <input type="number" id="edad" onblur="validarEdad()" onfocus="limpiarcampos('edad')">
+                            <div id="edad-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Telefono</div>
+                            <input type="text" id="telefono" onblur="validarTelefono()" onfocus="limpiarcampos('telefono')">
+                            <div id="telefono-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Direccion</div>
+                            <input type="text" id="direccion" onblur="validarDireccion()" onfocus="limpiarcampos('direccion')">
+                            <div id="direccion-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Ciudad</div>
+                            <input type="text" id="ciudad" onblur="validarCiudad()" onfocus="limpiarcampos('ciudad')">
+                            <div id="ciudad-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">Codigo Postal</div>
+                            <input type="text" id="cp" onblur="validarCP()" onfocus="limpiarcampos('cp')">
+                            <div id="cp-error"></div>
+                        </div>
+
+                        <div class="contenedor-campos">
+                            <div class="label">DNI</div>
+                            <input type="text" id="dni" onblur="validarDNI()" onfocus="limpiarcampos('dni')">
+                            <div id="dni-error"></div>
+                        </div>
+
+                        <button class="btn-submit" type="button" onclick="validarSubmit()">Aceptar</button>
+
+                    </form>
+                </div>
+          
+
             </section>
             <h2>Otras novedades</h2>
             <section class="otras-noticias">
